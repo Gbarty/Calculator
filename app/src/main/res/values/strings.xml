@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="menu">Menu</string>
+    <string name="cs">Colour Scheme</string>
+    <string name="MathError">Math Error</string>
+    <string name="msuggest">Suggest a Motivational Quote</string>
+    <string name="sr">Stress Relief</string>
+    <string name="help">Help</string>
+    <string name="clap">Clapping</string>
+    <string name="censor">Censor</string>
+    <string name="Equals"> = </string>
+    <string name="FuckOff">Fuck Off</string>
+    <string name="buttonZero">0</string>
+    <string name="buttonOne">1</string>
+    <string name="buttonTwo">2</string>
+    <string name="buttonThree">3</string>
+    <string name="buttonFour">4</string>
+    <string name="buttonFive">5</string>
+    <string name="buttonSix">6</string>
+    <string name="buttonSeven">7</string>
+    <string name="buttonEight">8</string>
+    <string name="buttonNine">9</string>
+    <string name="buttonClear">C</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonMinus">-</string>
+    <string name="buttonMulti">x</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonPi">Pi</string>
+    <string name="buttonRad">Rad</string>
+    <string name="buttonDelete">Del</string>
+    <string name="buttonDecimal">.</string>
+    <string name="buttonOBracket">(</string>
+    <string name="buttonCBracket">)</string>
+    <string name="buttonLn">ln</string>
+    <string name="buttonExp">e</string>
+    <string name="ScrollText">   |   The More Work You Do The More Work Gets Done   |   To Win The Game At First You Must Play The Game   |   A Day Without Sunshine Is Basically Nighttime   |
+        A Diamond Is Just A Coal That Did Well Under Pressure   |   Except Who You Are Unless You\'re A Serial Killer   |    You Now Have To Blink Manually    |
+    I Didn\'t Fail The Test I Just Found 100 Alternate Answers    |    123 It\'s As Easy As fml |  Lads Night At The Pub, Had The Best Ale Ever, Beaver Town
+        Gamma Ray | whatever he said, whatever he did, he didn\'t mean it, i just want you back for good, i want you back, i want you back,e.t.c (4 eric) |    More Coming Soon Probably    |   </string>
+</resources>

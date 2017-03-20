@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.georges.firstapplication.MainActivity">
+
+    <include layout="@layout/content_main"/>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ScrollText"
+            android:maxLines="1"
+            android:ellipsize="marquee"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:fadingEdge="horizontal"
+            android:id="@+id/ScrollText"
+            android:padding="5dip"
+            android:textColorHighlight="#0080cbc4"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:background="#00b2ff" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:background="#00B2FF" />
+
+    </android.support.design.widget.AppBarLayout>
+
+</android.support.design.widget.CoordinatorLayout>
