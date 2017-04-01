@@ -48,12 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     MediaPlayer FuckOff;
     MediaPlayer Clapping;
 
-    public static void main (String [] args){
-        String [] arr = {"A","B","C","D"};
-        Random random = new Random();
-        int select = random.nextInt(arr.length);
-        System.out.println(""+ arr[select]);
-    }
+
 
     @Override
     protected void onPause() {
@@ -124,8 +119,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             buttM.setOnClickListener(this);
             buttD.setOnClickListener(this);
             buttPi.setOnClickListener(this);
-            buttDec.setOnClickListener(this);
             buttExp.setOnClickListener(this);
+            buttDec.setOnClickListener(this);
             buttDel.setOnClickListener(this);
         }
         catch(Exception e){ }
