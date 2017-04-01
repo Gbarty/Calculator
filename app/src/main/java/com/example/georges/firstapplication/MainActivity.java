@@ -14,6 +14,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import java.lang.Math;
+import android.os.Vibrator;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Random;
 import java.text.DecimalFormat;
 
@@ -33,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public Double op3 = (double)0, op4 = (double)0;
     EditText Display;
     TextView SecondDisplay;
+    TextView ST;
     public double op1, op2;
     Button butt0, butt1, butt2, butt3, butt4, butt5, butt6, butt7, butt8, butt9, buttC, buttE, buttA, buttS, buttM, buttD, buttDel, buttDec, buttPi, buttExp;
 
@@ -247,6 +251,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 str = str.append(butt9.getText());
                 Display.setText(str);
                 break;
+            case R.id.buttPi:
+                if(op2 != 0){
+                    op2 = 0;
+                    Display.setText("");
+                }
+                str = str.append(Double.toString(Math.PI));
+                Display.setText(str);
+                break;
             case R.id.buttC:
                 op1 = 0;
                 op2 = 0;
@@ -425,13 +437,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         return super.onOptionsItemSelected(item);
     }
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
     public Action getIndexApiAction() {
         Thing object = new Thing.Builder()
-                .setName("Main Page") // TODO: Define a title for the content shown.
+                .setName("Calculator")
                 // TODO: Make sure this auto-generated URL is correct.
                 .setUrl(Uri.parse("http://[ENTER-YOUR-URL-HERE]"))
                 .build();
